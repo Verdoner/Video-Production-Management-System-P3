@@ -1,0 +1,76 @@
+[ {
+  "name" : "Test Project 1",
+  "description" : "Test Project Description",
+  "id" : "1",
+  "creationDate" : "2023-12-07",
+  "deadline" : "2023-12-22",
+  "status" : "Idea Generation",
+  "clientId" : "1",
+  "phases" : [ {
+    "name" : "Idea Generation",
+    "id" : "1",
+    "active" : true,
+    "tasks" : [ {
+      "name" : "Test Task 1",
+      "description" : "Test Task Description",
+      "id" : "1",
+      "creationDate" : "2023-12-07",
+      "deadline" : "2023-12-08T12:00",
+      "completed" : false,
+      "employeeId" : "1"
+    }, {
+      "name" : "Test 2",
+      "description" : "Yes",
+      "id" : "3",
+      "creationDate" : "2023-12-08",
+      "deadline" : "2023-12-15T10:00",
+      "completed" : true,
+      "employeeId" : "1"
+    } ],
+    "meetings" : [ {
+      "name" : "Test Meeting 1",
+      "description" : "Test Meeting Description",
+      "id" : "1",
+      "startTime" : "2023-12-08T10:00",
+      "duration" : "30",
+      "participants" : [ {
+        "accepted" : false,
+        "employeeId" : "1"
+      } ]
+    }, {
+      "name" : "onboarding møde",
+      "description" : "",
+      "id" : "2",
+      "startTime" : "2023-12-07T10:07",
+      "duration" : "0",
+      "participants" : [ {
+        "accepted" : false,
+        "employeeId" : "1"
+      } ]
+    } ]
+  }, {
+    "name" : "Client Interview",
+    "id" : "2",
+    "active" : false,
+    "tasks" : [ ],
+    "meetings" : [ ]
+  }, {
+    "name" : "Recording",
+    "id" : "3",
+    "active" : false,
+    "tasks" : [ ],
+    "meetings" : [ ]
+  }, {
+    "name" : "Editing",
+    "id" : "4",
+    "active" : false,
+    "tasks" : [ ],
+    "meetings" : [ ]
+  }, {
+    "name" : "End",
+    "id" : "5",
+    "active" : false,
+    "tasks" : [ ],
+    "meetings" : [ ]
+  } ]
+} ]

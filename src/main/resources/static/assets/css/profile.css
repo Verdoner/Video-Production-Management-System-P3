@@ -1,0 +1,123 @@
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
+#topContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#topContent >div {
+    display: flex;
+    padding-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+#topContent >div>h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    justify-self: center;
+    display: flex;
+}
+
+#topContent > button {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid black;
+    display: flex;
+    transition: 0.3s;
+    gap: 5px;
+}
+
+#topContent > button:hover {
+    background-color: #b0b0b0;
+}
+
+#topContent > button svg {
+    height: 30px;
+    width: 30px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+#content label {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #0F1634;
+}
+
+#content > button {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 2px solid black;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    transition: 0.3s;
+    gap: 5px;
+}
+
+#content > button:hover {
+    background-color: #b0b0b0;
+}
+
+#content #profileForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    gap: 30px;
+    max-width: 1200px;
+}
+
+#content #profileForm > div {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 500px;
+}
+
+#content #profileForm > div input{
+    padding: 15px;
+}
+
+#content #profileForm button{
+    background-color: #0F1634;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#content #profileForm > div #phoneNumber::-webkit-outer-spin-button, #content #profileForm #phoneNumber::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+#content #profileForm > div #phoneNumber{
+    -moz-appearance: textfield;
+}

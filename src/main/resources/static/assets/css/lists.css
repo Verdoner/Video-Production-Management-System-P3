@@ -1,0 +1,122 @@
+#topContent>div>h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+#content {
+    margin: unset;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+#buttons>button {
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    background-color: #f6f6f6;
+    border: 1px solid #aaa9ad;
+    padding: 12px 48px;
+    transition: 0.3s;
+}
+
+#buttons>button:hover {
+    border: 1px solid #0F1634;
+    background-color: #E9ECF9;
+}
+
+#buttons>button.open {
+    background-color: #E9ECF9;
+    color: white;
+    font-weight: 600;
+    border: 2px solid #0F1634;
+    z-index: 2;
+    color: #0F1634;
+}
+
+#content table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+#content table thead tr{
+    background-color: #0F1634;
+}
+
+#content table thead th{
+    color: white;
+}
+
+#content tbody{
+    border: none;
+}
+
+#content tbody td.clickable{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#content tbody td.clickable:hover{
+    color: #B78A09;
+}
+
+#content table tbody tr:nth-child(even){
+    background-color: #E9ECF9;
+}
+
+#content table tbody tr:nth-child(odd){
+    background-color: #F3F5FF;
+}
+
+#content table th, #content table td{
+    text-align: left;
+    padding: 30px;
+}
+
+#content table td:last-child{
+    gap: 10px;
+    text-align: end;
+}
+
+#content tbody tr td:last-child button{
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    height: 25px;
+    aspect-ratio: 1;
+    margin-left: 10px;
+}
+
+#content table td, #content table th{
+    text-align: left;
+}
+
+#content #list tr td:last-child button:hover path{
+    fill: #B78A09;
+}
+
+#content tbody tr td:last-child button svg{
+    height: 100%;
+    width: 100%;
+}
+
+#content tbody tr td:last-child button svg path{
+    transition: 0.3s;
+}
+
+#content tbody .removeBtn svg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

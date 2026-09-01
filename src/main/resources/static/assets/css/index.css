@@ -1,0 +1,93 @@
+#content{
+    display: flex;
+    align-items: center;
+}
+
+#content #topContent{
+    flex-direction: column;
+    max-width: 1200px;
+}
+
+#topContent h1 {
+    font-size: 52px;
+}
+
+#content #boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 60px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+
+#content #boxes>div{
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 1px solid #aaa9ad;
+    box-sizing: border-box;
+    background-color: #0F1634;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+#content #boxes a {
+    font-size: 20px;
+    padding: 20px 24px;
+    color: white;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #1D274F;
+    align-items: center;
+}
+
+#content #boxes a svg{
+    margin-right: 20px;
+    width: 22px;
+    height: 22px;
+}
+
+#content #boxes a svg path{
+    fill: #B78A09;
+}
+
+#content #boxes>div>a>p {
+    padding: 6px 12px !important;
+    border-radius: 20px;
+    background-color: #B78A09;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+
+#content #boxes>div>p {
+    padding: 0px 24px;
+    margin-bottom: 10px;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    width: fit-content;
+}
+
+#content #boxes>div>p:hover{
+    color: #B78A09;
+}
+
+#content #boxes p:nth-child(2) {
+    padding-top: 20px;
+}
+
+#content #boxes p:last-child {
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+

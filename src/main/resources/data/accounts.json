@@ -1,0 +1,17 @@
+[ {
+  "name" : "Editor",
+  "email" : "admin@admin.dk",
+  "role" : "admin",
+  "id" : "1",
+  "password" : "password",
+  "ip" : null,
+  "phone" : "12345678"
+}, {
+  "name" : "Editor",
+  "email" : "editor@editor.dk",
+  "role" : "editor",
+  "id" : "2",
+  "password" : "password",
+  "ip" : null,
+  "phone" : " 22 96 02 57"
+} ]

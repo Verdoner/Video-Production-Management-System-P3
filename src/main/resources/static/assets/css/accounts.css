@@ -1,0 +1,49 @@
+#accountsOverview {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    gap: 30px;
+    max-width: 1200px;
+}
+
+#accountsOverview >div {
+    height: 100px;
+    border: 1px solid #aaa9ad;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #E9ECF9;
+    transition: 0.3s;
+}
+
+#accountsOverview >div:hover {
+    border: 1px solid #0F1634;
+}
+
+.accBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.accBox:hover{
+    cursor: pointer;
+}
+
+.accPfp {
+    margin-bottom: 15px;
+}
+
+.accPfp svg {
+    height: 125px;
+    width: 125px;
+}
+
+.accName {
+    font-size: x-large;
+    text-decoration: underline;
+}
